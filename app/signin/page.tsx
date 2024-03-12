@@ -83,11 +83,13 @@ function Page() {
           </button>
         </div>
         <Link href="/signup">
-          <p className="linkyeah">Don't have an account on Flashify?</p>
+          <p className="linkyeah">Don{`'`}t have an account on Flashify?</p>
         </Link>
       </div>
       {emp && <p className="emp">Empty request</p>}
-      {nf && <p className="nftrue">This doesn't match. Please try again?</p>}
+      {nf && (
+        <p className="nftrue">This doesn{`'`}t match. Please try again?</p>
+      )}
       {f && <p className="f">Success! The user has been found!</p>}
       {loading && <p className="emp2">Loading...</p>}
     </div>
