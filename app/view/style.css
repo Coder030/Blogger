@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+.blogs {
+  /* background-color: #add8e6; */
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.blogs:hover {
+  box-shadow: 2.5px 1px 4px #888888;
+}
+
+.title {
+  text-decoration: wavy;
+  font-size: 56px;
+  margin: 0;
+  margin-left: 40px;
+  font-family: Allura, cursive;
+  font-weight: 1000;
+}
+
+.made {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nb {
+  text-align: center;
+  font-size: 30px;
+}
+
+.nb2 {
+  text-align: center;
+  font-size: 60px;
+  color: red;
+}
+
+/* New styles for the search input */
+.search-container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the container horizontally */
+}
+
+.input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  height: 45px;
+  border-radius: 0 5px 5px 0;
+  background-color: #4caf50; /* Green background color */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
