@@ -12,6 +12,10 @@ function Page() {
     <>
       <Navbar />
       <h1 className="head">Welcome to Flashify!</h1>
+      <p className="hey">
+        You can check View Blogs right now, without signing in or signing up,
+        but you cannot make blogs, without doing so
+      </p>
     </>
   );
 }
