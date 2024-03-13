@@ -9,7 +9,8 @@ body {
 .page {
   /* border: 0.001px solid black; */
   /* background-image: linear-gradient(60deg, rgb(249, 237, 210), white); */
-  border: 1px solid black;
+  box-shadow: 4.5px 4.5px 4px #afaeae;
+  border: none;
   height: 1145px;
   width: 835px;
   display: block;
@@ -38,7 +39,8 @@ body {
 .page2 {
   /* background-color: rgb(255, 251, 244); */
   /* border: 0.001px solid black; */
-  border: 1px solid black;
+  box-shadow: 4.5px 4.5px 4px #afaeae;
+  border: none;
   height: 35px;
   width: 835px;
   display: block;

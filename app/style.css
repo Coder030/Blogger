@@ -4,6 +4,7 @@
 
 body {
   font-family: Inter;
+  background-color: #e6e6fa;
 }
 .navbar {
   display: flex;

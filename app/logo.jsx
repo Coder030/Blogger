@@ -1,10 +1,14 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
+import { UserContext } from "./context";
 import "./style.css";
 
 function Logo() {
   const [name, setName] = useState("Guest (not signed in)");
+  // console.log(useContext(UserContext));
+  // const { userData, setUserData, updateUser } = useContext(UserContext);
+  // console.log(userData);
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
@@ -16,6 +20,7 @@ function Logo() {
         }
       );
       const data = await response.json();
+      console.log(data);
       if (data["message"] === "nvt") {
         return null;
       } else {
